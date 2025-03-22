@@ -1,0 +1,58 @@
+body {
+	background-color: ivory;
+	color: dimgrey;
+	font-family: "Raleway";
+	padding: 0 50px;
+}
+.clickme {
+	color: ivory;
+	background-color: lightblue;
+	padding: 10px 20px 10px 20px;
+	text-align: center;
+	font-family: "Raleway";
+	font-size: 18px;
+	border-radius: 5px;
+	border: none;
+	margin: 5px 10px;
+}
+h1 {
+	color: ivory;
+	font-family: "Goudy Bookletter 1911";
+}
+hr {
+	height: 2px;
+	background-color: tan;
+	border: none;
+}
+#header {
+	background-color: tan;
+	border-radius: 7px;
+	padding: 0 9px;
+}
+#header-icon {
+	float: right;
+	position: absolute;
+	top: 7px;
+}
+@media (max-width: 710px) {
+	#header-icon { display: none; }
+}
+#footer {
+	background-color: tan;
+	border-radius: 7px;
+	padding: 1px 9px;
+	font-family: "Goudy Bookletter 1911";
+}
+.artimage {
+	width: 250px;
+	margin: 5px;
+}
+@media (max-width: 900px) {
+	.artimage { width: 22vw; }
+}
+.fullimage {
+	max-width: 600px;
+}
+@media (max-width: 700px) {
+	.fullimage { width: 70vw; }
+}
