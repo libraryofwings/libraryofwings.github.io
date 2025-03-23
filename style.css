@@ -32,7 +32,7 @@ hr {
 #header-icon {
 	float: right;
 	position: absolute;
-	top: 7px;
+	top: -5px;
 }
 @media (max-width: 710px) {
 	#header-icon { display: none; }
@@ -51,8 +51,15 @@ hr {
 	.artimage { width: 22vw; }
 }
 .fullimage {
-	max-width: 600px;
+	max-width: 120px;
+	padding: 5px;
 }
 @media (max-width: 700px) {
-	.fullimage { width: 70vw; }
+	.fullimage { width: 25vw; }
+}
+#hazelbox {
+	min-height: 150px;
+}
+#juniperbox {
+	min-height:150px;
 }
