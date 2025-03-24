@@ -34,8 +34,12 @@ hr {
 	position: absolute;
 	top: -5px;
 }
-@media (max-width: 710px) {
+@media (max-width: 610px) {
 	#header-icon { display: none; }
+	#hdtxt { text-align: center; }
+}
+@media (min-width: 611px) {
+	#hdtxt { text-align: right; }
 }
 #footer {
 	background-color: tan;
@@ -63,3 +67,10 @@ hr {
 #juniperbox {
 	min-height:150px;
 }
+@media (max-width: 600px) {
+	#secret { display: none; }
+}
+@media (min-width: 620px) {
+	#secret { display: none; }
+}
+
